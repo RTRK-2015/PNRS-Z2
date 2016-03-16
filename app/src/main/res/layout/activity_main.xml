@@ -6,12 +6,14 @@
   android:orientation="vertical">
 
     <TextView
+      android:id="@+id/text1"
       android:text="@string/hello"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_gravity="center_horizontal"
     />
     <Button
+      android:id="@+id/button1"
       android:text="@string/button1"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -19,6 +21,7 @@
     />
 
     <Button
+      android:id="@+id/button2"
       android:text="@string/button2"
       android:layout_width="fill_parent"
       android:layout_height="wrap_content"
@@ -31,6 +34,7 @@
      android:weightSum="2">
 
        <Button
+         android:id="@+id/button3"
          android:text="@string/button3"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
@@ -38,6 +42,7 @@
        />
 
        <Button
+         android:id="@+id/button4"
          android:text="@string/button4"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
